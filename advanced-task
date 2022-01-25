@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css"> 
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+        :root {
+            background-color: #F0F2F5;
+            red: #E62E4D;
+            blue: #5429CC;
+            green: #33CC95;
+            blue-light: #6933FF;
+            text-title: #363F5F;
+            text-body: #969CB3;
+            shape: #FFFFFF;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: #F0F2F5;
+        }
+        button {
+            cursor: pointer;
+            border-color: #33CC95;
+            border-radius: 0.25rem;
+            background-color: #33CC95;
+            color: #FFFFFF;
+            font-family: 'Poppins', sans-serif;
+        }
+        .header {
+            color: #FFFFFF;
+        }
+        .container{
+            color: #F0F2F5;
+            margin: 0 auto;
+        }
+        .header header {
+            max-width: 1120px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #FFFFFF;
+        }
+        .header header img {
+            max-width: 80px;
+        }
+        h1 {
+            color: #FFFFFF;
+            font-family: 'Poppins', sans-serif;
+        }
+        section.criarTask {
+            background-color: #5429CC;
+            padding: 5rem 4rem;
+            margin-top: -1rem;
+            margin-right: 10rem;
+            margin-left: 10rem;
+            border-radius: 1rem;
+        }
+        section.criarTask header {
+            align-items: center;    
+            justify-content: space-between;
+            flex-direction: row;
+            display: flex;
+        }
+        section.criarTask input {
+            border-radius: 0.25rem;
+            font-family: 'Poppins', sans-serif;
+        }
+        #novaTask {
+            width: 210px;
+        }
+        </style>
+    <title>My Task</title>
+</head>
+<body>
+    <div class="header">
+        <header>
+            <img src="./LOGO-ROXA-LETREIRO.png" title="LogoDaFabrica" alt="LogoDaFabrica">
+        </header>
+    </div>
+    <div class="container">
+        <section class="criarTask">
+            <header>
+                <h1>My Task</h1>
+                <div class="input-group">
+                    <input type="text" placeholder="Adicionar uma nova tarefa" id="novaTask">
+                    <button>
+                        Enviar
+                    </button>
+                </div>
+            </header>
+            <div class="seeTaskDiv">
+
+            </div>
+        </section>
+    </div>
+</body>
+</html>
