@@ -1,0 +1,14 @@
+<html>
+ <head>
+   <title>A turma mais resenheira</title>
+   <style type = "text/css">
+   .teste{background:green;}
+   </style>
+ </head>
+ <body>
+  <p>Informática 1M</p>
+  <p atributo 1="valor" atributo 2="valor">
+  <p aling = "center">Turma do 2º Período no IFRN</p>
+  <p aling = "center" class = "teste"></p>
+ </body>
+</html>

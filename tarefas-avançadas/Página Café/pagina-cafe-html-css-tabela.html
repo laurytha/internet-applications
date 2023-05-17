@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    
+    <style type="text/css">
+    @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Dancing+Script&display=swap');
+    
+    #conteiner {
+        width: 80%;
+        margin: 0 auto;
+        background-color: white ;
+    }
+    #img-background{
+        width: 100%;
+        height: 400px;
+
+        background-image: url('cofee.jpg');
+        background-position: 10%;
+        background-size: 100%;
+        position: relative;
+        border-bottom: 2px solid #732C02;
+        margin: auto;
+    }
+    #titulo{
+        background-color: #BF571B99;
+        height: 90px;
+        text-align: center;
+        position: absolute;
+        top: 250px;
+        padding: 1% 5%;
+    }
+    #titulo{
+        color: white;
+    }
+    h1, h2{
+        font-family: 'Berkshire Swash', cursive;
+    }
+    h2{
+        border-bottom: solid #732C02 3px;
+        width: 25%;
+    }
+    td, th{
+        font-family: 'Dancing Script', cursive;
+        padding: 15px; 
+    }
+    p{
+        font-family: 'Dancing Script', cursive;
+        text-align: justify;
+    }
+    #img{
+        width: 30%;
+        border-radius: 10px;
+        top: 10%;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-bottom: 10%;
+        box-shadow: 2px 3px #732C02;    
+        float: left;
+    }
+    .ajuste {
+        right: 10px;
+        left: 10px;
+        float: left;
+    }
+    table{
+        width: 100%;
+        border: 1px solid white;
+        border-collapse: collapse;
+        background-color: #F29D35;
+    }
+    #titulo_table{
+        color: white;
+        background-color: #732C02;
+        text-align: center;
+    }
+    #footer{
+        margin-left: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: black;
+    }
+    </style>
+    <title>Café é Sempre uma boa Ideia</title>
+</head>
+<body>
+    <div id="conteiner"> 
+        <header>
+            <div id="img-background">
+                <div id="titulo">
+                    <h1>Café é Sempre uma boa Ideia</h1>
+                </div>
+            </div>
+        </header>
+        <main>
+            <article>
+              <div class="ajuste">
+                    <h2>Café Expresso</h2>               
+                    <img id="img" src="cafe-expresso.jpg" alt="café expresso">
+                    <p>Um café expresso (do italiano caffè espresso), frequentemente referido simplesmente como
+                        expresso (ou ainda internacionalmente expresso), é um método de preparar café através da
+                        passagem de água quente (não fervente) sob alta pressão pelo café moído. O café expresso
+                        tradicional, em máquina industrial, é feito sob pressão de novecentos a mil quilo pascals (nove
+                        a dez atmosferas ou bars), o que explica o termo expresso que aqui tem o sentido de exprimir
+                        ou espremer, ao contrário do que muitos pensam não tem originalmente o significado de
+                        rápido (este é apenas uma coincidência da automatização), portanto em uma tradução mais
+                        contextual o seu nome poderia ser café espremido e por isto muitos preferem manter o
+                        original em Italiano usando o termo expresso ou café expresso.</p>
+                </div>
+                <div class="ajuste">
+                    <h2>Café Mocha</h2>
+                    <img id="img" src="drink-Mocha.png" alt="café mocha">
+                    <p>O nome dado a um tipo de grão de café com um sabor achocolatado, menor e mais redondo
+                        que a maioria dos outros tipos de grãos da espécie [Coffea arabica], nativa da Etiópia, mas
+                        originalmente cultivada no Iêmen e de lá exportado para o porto de Mocha, de onde deve ter
+                        vindo a associação do café expresso ao nome Mocha. Na Europa, café mocha pode ser referir
+                        tanto ao café com chocolate ou simplesmente ao café feito com grãos de mocha. O café Moca
+                        (Mocha) recebeu esse nome devido à cidade de Mocha, na costa do Mar Vermelho, no Iêmen,
+                        que no século quinze foi um importante exportador de café, especialmente para áreas ao
+                        redor da Península Ibérica.</p>
+                </div>
+                <div class="ajuste">
+                    <table border="1">
+                        <tr id="titulo_table">
+                            <td colspan="2">Café</td>
+                        </tr>
+                        <tr>
+                            <td><strong> Espécies e variedades</strong></td>
+                            <td>Coffea arabica - Coffea canephora - Coffea liberica</td>
+                        </tr>
+                        <tr>
+                            <td><strong> Métodos de preparo</strong></td>
+                            <td>Café coado - Café de percolador - Expresso - Café solúvel - Cafeteira italiana - Prensa francesa - Café turco</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Bebidas com café</strong></td>
+                            <td>Affogato - Black Russian - Café americano - Café bombón - Café-comleite - Café frappé - Café gelado - Caffè macchiato - Caffè mocha - Cappuccino - Galão - Garoto - Irish coffee - Kopi Luwak - Latte - Latte macchiato - Long black - Moretta - Red eye - White Russian - Café dalgona</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Substitutos</strong></td>
+                            <td>Orzo - Cevada - Chicória</td>
+                        </tr>
+                    </table>
+                </div>
+            </article>
+        </main>
+        <footer >
+            <p id="footer"> &copy; CopyRight 2021</p>
+        </footer>
+    </div>  
+</body>
+</html>
